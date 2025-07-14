@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontak - KKN Desa Maju Bersama</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Kontak</h1>
+  </header>
+
+  <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+  <nav class="nav" id="nav">
+    <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+    <a href="index.html">Beranda</a>
+    <a href="program.html">Program Kerja</a>
+    <a href="laporan.html">Laporan Harian</a>
+    <a href="galeri.html">Dokumentasi</a>
+    <a href="kontak.html">Kontak</a>
+  </nav>
+
+  <section class="section">
+    <h2>KKN Akan Berakhir!</h2>
+    <div id="countdown" class="countdown"></div>
+  </section> 
+
+  <section>
+    <div class="aspirasi-container">
+      <h1>Aspirasi Masyarakat</h1>
+      <p>Silakan sampaikan aspirasi, saran, atau masukan Anda demi kemajuan desa.</p>
+  
+      <form class="aspirasi-form">
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required />
+  
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="nama@email.com" />
+  
+        <label for="kategori">Kategori Aspirasi</label>
+        <select id="kategori" name="kategori" required>
+          <option value="">-- Pilih Kategori --</option>
+          <option>Pembangunan</option>
+          <option>Kesehatan</option>
+          <option>Pendidikan</option>
+          <option>Lingkungan</option>
+          <option>Pelayanan Publik</option>
+          <option>Lainnya</option>
+        </select>
+  
+        <label for="pesan">Pesan / Aspirasi</label>
+        <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis aspirasi Anda..." required></textarea>
+  
+        <button type="submit" class="btn-kirim">Kirim Aspirasi</button>
+      </form>
+    </div>
+  </section>
+  
+  <section class="kontak-section">
+    <h2>Lokasi Kantor Kelurahan Perumnas Way Kandis</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.3412416711462!2d105.2856596749837!3d-5.3648075946140015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40c5b385f4db91%3A0xd852bace2cffec83!2sKantor%20Kelurahan%20Perumnas%20Way%20Kandis!5e0!3m2!1sen!2sid!4v1752469228641!5m2!1sen!2sid" 
+    width="340" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+
+  <div style="text-align: justify">
+    <p><strong>Alamat:</strong> Perumnas Way Kandis</p>
+    <p><strong>Email:</strong> kknperumnaswaykandis2025@gmail.com</p>
+    <p><strong>Instagram:</strong> @kknperumnaswaykandis</p> </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 KKN Perumnas Way Kandis. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

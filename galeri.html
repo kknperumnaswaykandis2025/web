@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galeri - KKN Perumnas Way Kandis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Dokumentasi</h1>
+  </header>
+
+  <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+  <nav class="nav" id="nav">
+    <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+    <a href="index.html">Beranda</a>
+    <a href="program.html">Program Kerja</a>
+    <a href="laporan.html">Laporan Harian</a>
+    <a href="galeri.html">Dokumentasi</a>
+    <a href="kontak.html">Kontak</a>
+  </nav>
+
+  <section class="gallery-section">
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="https://source.unsplash.com/400x300/?community,event" alt="Kegiatan 1" />
+        <p></p>
+      </div>
+      <div class="gallery-item">
+        <img src="https://source.unsplash.com/400x300/?education,children" alt="Kegiatan 2" />
+        <p></p>
+      </div>
+      <div class="gallery-item">
+        <img src="https://source.unsplash.com/400x300/?village,teamwork" alt="Kegiatan 3" />
+        <p></p>
+      </div>
+    </div>
+  </section>
+
+  <div id="modal" class="modal" onclick="closeModal()" style="display: none;">
+    <img id="modalImg" src="" alt="">
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 KKN Perumnas Way Kandis. All rights reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
